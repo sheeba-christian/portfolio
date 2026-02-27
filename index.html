@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheeba C — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Outfit:wght@300;400;600;700;900&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Bubbles BG -->
+  <div class="bg-layer"></div>
+  <div class="bubbles" id="bubbles"></div>
+
+  <!-- Custom Cursor -->
+  <div id="cur"></div>
+  <div id="cur-ring"></div>
+
+  <!-- ── NAV ── -->
+  <nav>
+    <a class="nav-logo" href="#">SHEEBA_C.EXE</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Exp</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero-name">Sheeba C</div>
+    <div class="hero-title-badge">Java · Power BI · AI / ML</div>
+    <p class="hero-desc">
+      Building smart software and beautiful dashboards from Chennai, India.
+      Currently pursuing B.Tech IT at Panimalar Engineering College.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-cyan">See My Work ✦</a>
+      <a href="#contact" class="btn btn-pink">Let's Connect</a>
+    </div>
+    <div class="hero-stats">
+      <div class="h-stat">
+        <div class="h-stat-val">7.9</div>
+        <div class="h-stat-label">CGPA</div>
+      </div>
+      <div class="h-stat">
+        <div class="h-stat-val">2+</div>
+        <div class="h-stat-label">Projects</div>
+      </div>
+      <div class="h-stat">
+        <div class="h-stat-val">3+</div>
+        <div class="h-stat-label">Certs</div>
+      </div>
+      <div class="h-stat">
+        <div class="h-stat-val">2027</div>
+        <div class="h-stat-label">Graduating</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="fw-section" id="about">
+    <div class="about-inner">
+      <div>
+        <div class="section-header">
+          <div class="s-num">01</div>
+          <h2 class="s-title">About <span class="outline">Me</span></h2>
+        </div>
+        <div class="about-text reveal">
+          <p>I'm a <strong>B.Tech Information Technology</strong> student with a passion for writing clean, purposeful code and building data-driven solutions that make a real impact.</p>
+          <p>My internship at <span class="hi">Congruent Solutions</span> gave me hands-on Power BI experience — I built a full Project Management Dashboard tracking KPIs, timelines, and dynamic visualizations from scratch.</p>
+          <p>I love working at the intersection of <strong>AI, data, and software</strong>. From medication reminder platforms to ML-based plant detection, my projects reflect a drive to apply technology to solve real problems.</p>
+        </div>
+      </div>
+      <div class="info-cards reveal">
+        <div class="ic"><span class="ic-icon">🎓</span><div><div class="ic-lbl">Institution</div><div class="ic-val">Panimalar Engineering College</div></div></div>
+        <div class="ic"><span class="ic-icon">📍</span><div><div class="ic-lbl">Location</div><div class="ic-val">Chennai, India</div></div></div>
+        <div class="ic"><span class="ic-icon">📚</span><div><div class="ic-lbl">Degree</div><div class="ic-val">B.Tech – Information Technology</div></div></div>
+        <div class="ic"><span class="ic-icon">🗓️</span><div><div class="ic-lbl">Batch</div><div class="ic-val">2023 – 2027</div></div></div>
+        <div class="ic"><span class="ic-icon">💼</span><div><div class="ic-lbl">Status</div><div class="ic-val">Open to Internships &amp; Jobs</div></div></div>
+        <div class="ic"><span class="ic-icon">🌐</span><div><div class="ic-lbl">Languages</div><div class="ic-val">English · Tamil</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section class="fw-section" id="skills">
+    <div class="skills-inner">
+      <div class="section-header reveal">
+        <div class="s-num">02</div>
+        <h2 class="s-title"><span class="outline">Tech</span> Stack</h2>
+      </div>
+      <div class="skills-grid reveal" id="skillsGrid">
+        <div class="sk-card" data-level="85"><span class="sk-emoji">☕</span><div class="sk-name">Java</div><div class="sk-bar"><div class="sk-fill fill-cyan"></div></div></div>
+        <div class="sk-card" data-level="80"><span class="sk-emoji">🏗️</span><div class="sk-name">Data Structures</div><div class="sk-bar"><div class="sk-fill fill-cyan"></div></div></div>
+        <div class="sk-card" data-level="80"><span class="sk-emoji">🧩</span><div class="sk-name">OOP Concepts</div><div class="sk-bar"><div class="sk-fill fill-purple"></div></div></div>
+        <div class="sk-card" data-level="75"><span class="sk-emoji">📊</span><div class="sk-name">Power BI</div><div class="sk-bar"><div class="sk-fill fill-yellow"></div></div></div>
+        <div class="sk-card" data-level="72"><span class="sk-emoji">📈</span><div class="sk-name">Data Analysis</div><div class="sk-bar"><div class="sk-fill fill-pink"></div></div></div>
+        <div class="sk-card" data-level="65"><span class="sk-emoji">🌐</span><div class="sk-name">HTML &amp; CSS</div><div class="sk-bar"><div class="sk-fill fill-cyan"></div></div></div>
+        <div class="sk-card" data-level="62"><span class="sk-emoji">🤖</span><div class="sk-name">Machine Learning</div><div class="sk-bar"><div class="sk-fill fill-lime"></div></div></div>
+        <div class="sk-card" data-level="65"><span class="sk-emoji">🔁</span><div class="sk-name">UiPath RPA</div><div class="sk-bar"><div class="sk-fill fill-pink"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section class="fw-section" id="experience">
+    <div class="exp-inner">
+      <div class="section-header reveal">
+        <div class="s-num">03</div>
+        <h2 class="s-title">Work <span class="outline">History</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-left">
+            <div class="tl-date">Jun 2025<br>Jul 2025</div>
+          </div>
+          <div class="tl-right">
+            <h3>Power BI Developer Intern</h3>
+            <div class="tl-company">⚡ Congruent Solutions</div>
+            <ul>
+              <li>Built a Project Management Dashboard to track KPIs and project timelines.</li>
+              <li>Designed dynamic and interactive visualizations in Power BI.</li>
+              <li>Performed data cleaning and modeling for accurate reporting outputs.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-left">
+            <div class="tl-date">2023<br>Present</div>
+          </div>
+          <div class="tl-right">
+            <h3>B.Tech — Information Technology</h3>
+            <div class="tl-company">🎓 Panimalar Engineering College</div>
+            <ul>
+              <li>Maintaining a strong CGPA of 7.9 across all semesters.</li>
+              <li>Core subjects: Data Structures, OOP, Algorithms, DBMS, Networks.</li>
+              <li>Completed AI/ML projects and industry certification programs.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section class="fw-section" id="projects">
+    <div class="projects-inner">
+      <div class="section-header reveal">
+        <div class="s-num">04</div>
+        <h2 class="s-title">My <span class="outline">Projects</span></h2>
+      </div>
+      <div class="proj-grid reveal">
+        <div class="proj-card">
+          <div class="proj-header">
+            <div class="proj-num">01</div>
+            <div class="proj-title-wrap">
+              <h3>🩺 MediTracker</h3>
+              <div class="proj-sub">Smart Prescription Reminder Platform</div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <p>An AI-powered platform that classifies prescriptions and automates medication reminders. Includes dosage alerts, refill notifications, and long-term adherence tracking to improve patient outcomes.</p>
+            <div class="proj-tags">
+              <span class="ptag ptag-cyan">AI / ML</span>
+              <span class="ptag ptag-pink">Healthcare</span>
+              <span class="ptag ptag-yellow">Automation</span>
+            </div>
+          </div>
+        </div>
+        <div class="proj-card">
+          <div class="proj-header">
+            <div class="proj-num">02</div>
+            <div class="proj-title-wrap">
+              <h3>🌿 Plant Detection System</h3>
+              <div class="proj-sub">AI-Based Indoor Plant Recognition</div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <p>ML-powered plant detection using image processing. Built a full pipeline covering data preprocessing, feature extraction, model training, and optimization for accurate real-world identification.</p>
+            <div class="proj-tags">
+              <span class="ptag ptag-lime">Machine Learning</span>
+              <span class="ptag ptag-cyan">Computer Vision</span>
+              <span class="ptag ptag-pink">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CERTIFICATIONS ── -->
+  <section class="fw-section" id="certifications">
+    <div class="certs-inner">
+      <div class="section-header reveal">
+        <div class="s-num">05</div>
+        <h2 class="s-title">My <span class="outline">Certs</span></h2>
+      </div>
+      <div class="certs-grid reveal">
+        <div class="cert-card">
+          <div class="cert-badge">☕</div>
+          <h4>Java &amp; C</h4>
+          <p>SoloLearn</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-badge">🤖</div>
+          <h4>UiPath Automation Developer Associate</h4>
+          <p>UiPath</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-badge">✨</div>
+          <h4>Prompt Engineering</h4>
+          <p>Google</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="fw-section" id="contact">
+    <div class="contact-inner">
+      <div class="section-header reveal" style="justify-content:center;">
+        <div class="s-num">06</div>
+        <h2 class="s-title">Say <span class="outline">Hello</span></h2>
+      </div>
+      <div class="contact-big reveal">Let's Build Something ✦</div>
+      <p class="contact-sub reveal">I'm actively looking for internship and entry-level software developer roles. Feel free to reach out anytime — I'd love to chat!</p>
+      <div class="contact-grid reveal">
+        <a href="mailto:sheeba.christian25@gmail.com" class="c-link">
+          <span class="c-icon">✉️</span>
+          <div class="c-text"><div class="c-label">Email</div><div class="c-val">sheeba.christian25@gmail.com</div></div>
+        </a>
+        <a href="tel:+917449096920" class="c-link">
+          <span class="c-icon">📱</span>
+          <div class="c-text"><div class="c-label">Phone</div><div class="c-val">+91 74490 96920</div></div>
+        </a>
+        <a href="https://linkedin.com/in/sheeba-christian-112319305" target="_blank" class="c-link">
+          <span class="c-icon">💼</span>
+          <div class="c-text"><div class="c-label">LinkedIn</div><div class="c-val">sheeba-christian-112319305</div></div>
+        </a>
+        <a href="https://github.com/sheeba-christian" target="_blank" class="c-link">
+          <span class="c-icon">🐙</span>
+          <div class="c-text"><div class="c-label">GitHub</div><div class="c-val">sheeba-christian</div></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <span>SHEEBA_C.EXE</span>
+    <span>Designed &amp; Built with ❤️ · <span style="color:var(--blue1)">2025</span></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
